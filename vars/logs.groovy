@@ -1,4 +1,6 @@
-def info(message)
-    echo $message
-def warning(message)
-    echo $message
+def info(message){
+    echo "${message}"
+}
+def warning(warningmessage){
+    echo "$warningmessage
+}
